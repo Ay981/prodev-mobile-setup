@@ -1,5 +1,5 @@
 import { Image } from 'expo-image';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -17,7 +17,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">** First App Created**</ThemedText>
+  <ThemedText type="title">** First App Created**</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -51,15 +51,6 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
-      <View>
-        <Text style={styles.largeText}>
-          Typescript is great if you practice more
-        </Text>
-        <Text style={styles.mediumText}>
-          React Native provides you a single codebase for cross platforms
-        </Text>
-        <Text style={styles.smallText}>ALX is awesome</Text>
-      </View>
     </ParallaxScrollView>
   );
 }
@@ -80,15 +71,5 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     position: 'absolute',
-  },
-  largeText: {
-    fontSize: 24,
-    fontWeight: 'bold',
-  },
-  mediumText: {
-    fontSize: 18,
-  },
-  smallText: {
-    fontSize: 14,
   },
 });
