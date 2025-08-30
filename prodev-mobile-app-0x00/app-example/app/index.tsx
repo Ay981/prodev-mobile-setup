@@ -6,7 +6,9 @@ export default function IndexScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>** First App Created**</Text>
       <Text style={styles.subtitle}>Welcome to your first Expo Router app example!</Text>
-      <Text style={styles.largeText}>Typescript is great if you practice more</Text>\r\n  <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>\r\n  <Text style={styles.smallText}>ALX is awesome</Text>
+      <Text style={styles.largeText}>Typescript is great if you practice more</Text>  
+      <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
+       <Text style={styles.smallText}>ALX is awesome</Text>
     </View>
   );
 }
