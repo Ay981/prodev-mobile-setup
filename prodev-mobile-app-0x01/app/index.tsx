@@ -84,3 +84,10 @@ const styles = StyleSheet.create({
   },
 });
 
+
+
+Checks for Add Additional Text Components Insert three extra components inside a component. Apply styles to each text component as specified task
+
+    app/index.tsx doesn't contain: ["<Text style={styles.largeText}>Typescript is great if you practice more</Text>\r\n  <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>\r\n  <Text style={styles.smallText}>ALX is awesome</Text>"]
+
+
