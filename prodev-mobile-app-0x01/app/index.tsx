@@ -88,7 +88,10 @@ const styles = StyleSheet.create({
 
 Checks for Add Additional Text Components Insert three extra components inside a component. Apply styles to each text component as specified task
 
-    <Text style={styles.largeText}>Typescript is great if you practice more</Text>  <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>  <Text style={styles.smallText}>ALX is awesome</Text>]
+    <Text style={styles.largeText}>Typescript is great if you practice more</Text>  
+  <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>  
+  <Text style={styles.smallText}>ALX is awesome</Text>]
+
 
 
 
