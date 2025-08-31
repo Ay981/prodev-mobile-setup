@@ -41,4 +41,5 @@ const styles = StyleSheet.create({
 });
 // prodev-mobile-app-0x01/app/index.tsx
 // This file is part of the ProDev Mobile App project, showcasing a simple React Native component
-// with TypeScript, demonstrating text styling and layout.
+// with TypeScript, demonstrating text styling and layout.*}
+//["<Text style={styles.largeText}>Typescript is great if you practice more</Text>\r\n  <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>\r\n  <Text style={styles.smallText}>ALX is awesome</Text>"]
