@@ -1,18 +1,18 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Text, View, StyleSheet } from 'react-native';
 
-export default function Index() {
+export default function Home() {
   return (
     <View style={styles.container}>
       <Text>Entry Screen - Awesome</Text>
-  <View>
-<Text style={styles.largeText}>Typescript is great if you practice more</Text>
-  <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
-  <Text style={styles.smallText}>ALX is awesome</Text>
-  </View>
+      
+      <View>
+        <Text style={styles.largeText}>Typescript is great if you practice more</Text>
+        <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
+        <Text style={styles.smallText}>ALX is awesome</Text>
+      </View>
     </View>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {
@@ -39,3 +39,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+// prodev-mobile-app-0x01/app/index.tsx
+// This file is part of the ProDev Mobile App project, showcasing a simple React Native component
+// with TypeScript, demonstrating text styling and layout.
